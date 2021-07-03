@@ -1,0 +1,35 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<ul class="nav navbar-nav">
+				<li class="active"><a href="main.jsp">메인</a></li>
+				<li><a href="bbs.jsp">게시판</a></li>
+			</ul>
+			<%
+				if(userID == null) {
+			%>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle"
+					 	data-toggle="dropdown" role="button" aria-haspopup="true"
+					 	aria-expanded="false">접속하기<span class="caret"></span></a>
+				 	<ul class="dropdown-menu">
+				 		<li><a href="login.jsp">로그인</a></li>	
+				 		<li><a href="join.jsp">회원가입</a></li>
+				 	</ul>
+				</li>
+			</ul>
+	<div class="box" style="width: 500px;
+	height: 200px; border: 10px solid lightgray;
+	font-size: 30px; margin: auto;
+	text-align: center; line-height: 200px;
+	font-weight: bold;">Made by seokjin jeong
+	</div>
+</body>
+</html>
