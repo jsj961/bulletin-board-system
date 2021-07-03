@@ -8,6 +8,8 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value=""/>
 		<list key="findhistory">
+			<item value="font"/>
+			<item value="font-size"/>
 			<item value="available"/>
 			<item value="availabe"/>
 		</list>
